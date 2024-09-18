@@ -40,7 +40,7 @@ const App=()=>{
             </div>
            </div>
            <div className="flex flex-row justify-center">
-          <img src="https://res.cloudinary.com/dve8r06ul/image/upload/v1726569019/atom_wcytoz.png" className="h-10 w-10 m-3 "/>
+          <img src="https://res.cloudinary.com/dve8r06ul/image/upload/v1726569019/atom_wcytoz.png" className="h-10 w-10 m-2"/>
           <img src="https://res.cloudinary.com/dve8r06ul/image/upload/v1726568558/developer_g80rja.png" className="h-10 w-10 m-3 "/>
           <img src="https://res.cloudinary.com/dve8r06ul/image/upload/v1726568811/browser_v8rncb.png" className="h-10 w-10 m-3"/>
 
