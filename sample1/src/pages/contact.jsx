@@ -1,13 +1,10 @@
-import Navbar from "../Components1/Navbar"
 
-const contact = () =>  {
+const Contact = () =>  {
   return (
-    <>
-    <Navbar />
-    <div>contact</div>
+   <>
+      <div>Contact</div>
     </>
     
   )
 }
-
-export default contact
+export default Contact

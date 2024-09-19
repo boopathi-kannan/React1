@@ -1,13 +1,12 @@
-import Navbar from '../Components1/Navbar'
 
-const project = () => {
+const Project = () => {
   return (
     <>
-    <Navbar />
+    
     <div>Projects</div>
     </>
    
   )
 }
 
-export default project
+export default Project
