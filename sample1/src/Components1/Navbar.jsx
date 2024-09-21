@@ -33,16 +33,20 @@ const[visible,setvisible]=useState(false)
 
           </div>
           <div className="flex flex-row justify-end w-1/2">
-          <ul className='w-full list-none flex flex-row justify-center gap-6'>
+          <ul className='w-full list-none flex flex-row justify-center gap-10 p-2 '>
                             {
                                 NavLinks.map((navdata,index) => (
                                     <NavLink key={index} to={navdata.path}>
-                                        <li className='font-bold text-xl text-white p-5'>{navdata.title}</li>
+                                        <li className='font-bold text-xl text-white p-3  gap-4 capitalize inline-block relative cursor-pointer transition-all duration-50:0  before:absolute
+                                                before:-bottom-0 before:left-0 before:w-0 before:h-1 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-slate-300
+                                                hover:before:w-full hover:before:opacity-100 '>{navdata.title} </li>
+                                        
 
                                     </NavLink>
                                 ))
                             }
                             </ul>
+
               
               <UserCircle className="h-10 w-10 m-3 rounded-full bg-white " onClick={()=> setvisible(true)}/>
 

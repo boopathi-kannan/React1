@@ -1,9 +1,12 @@
+import Slice from "../Components1/slice";
 
 const Project = () => {
+ 
   return (
     <>
-    
-    <div>Projects</div>
+      <div>
+        <Slice/>
+      </div>
     </>
    
   )
