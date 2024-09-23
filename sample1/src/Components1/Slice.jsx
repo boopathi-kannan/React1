@@ -9,26 +9,27 @@ const Slice=()=>
     {
       image:image1,
       title:'Agri Assist',
-      description:"fhwofhewoifg hewiofgewiofieowf ioewfio ewfjioewfjioewj",
+      description:"It provides tools and information related to farming practices, weather forecasts, crop health monitoring, soil analysis, and market prices. By using mobile or web platforms, farmers can receive real-time updates, expert advice, and data analytics to make informed decisions, ultimately boosting yield and income.",
     },
     {
       image:image2,
       title:'Online Voting',
-      description:"fhwofhewoifg hewiofgewiofieowf ioewfio ewfjioewfjioewj",
+      description:"The system ensures voter authentication, confidentiality, and tamper-proof results using encryption and secure authentication methods. It provides a user-friendly interface where voters can register, log in, and select their preferred candidates or options.",
     },
     {
       image:image3,
       title:'Rescue',
-      description:"fhwofhewoifg hewiofgewiofieowf ioewfio ewfjioewfjioewj",
+      description:"The system can send alerts if the pet leaves a designated safe zone and provide a map for easy navigation. Additional features might include health monitoring and historical movement data. ",
     },
   ]
   return (
     <>
       {slicelist.map((slice,index)=>(
-        <div key={index} className='w-2/6 flex flex-col border-black border-3 m-10 rounded-lg bg-slate-50 h-[70%] max-w-80 shadow-2xl shadow-black hover:shadow-2xl hover:shadow-white  hover:bg-slate-600 hover:text-slate-100 cursor-pointer hover:list-image-col'>
-          <img src={slice.image}/>
-          <p>{slice.title}</p>
-          <p>{slice.description}</p>
+        <div key={index} className='flex flex-col cursor-pointer bg-white justify-center py-4  text-center items-center rounded-xl 
+         shadow-2xl md:min-h-[340px] w-screen max-w-screen-md min-h-[260px] hover:bg-slate-500 hover:text-white hover:shadow-2xl hover:shadow-slate-500 '>
+          <img src={slice.image} className='p-4 h-[30%] w-[30%]'/>
+          <p className='p-3 font-bold'>{slice.title}</p>
+          <p className='p-3'>{slice.description}</p>
         </div>
       ))
     }

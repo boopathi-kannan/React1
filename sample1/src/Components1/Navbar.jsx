@@ -91,3 +91,38 @@ const[visible,setvisible]=useState(false)
 
 export default Navbar
 
+
+// <div className="w-full flex flex-row justify-center h-screen bg-slate-200 pt-10">\
+// <div className="w-2/6 flex flex-col border-black border-3 m-10 rounded-lg bg-slate-50 h-[70%] max-w-80 shadow-2xl shadow-black hover:shadow-2xl hover:shadow-white  hover:bg-slate-600 hover:text-slate-100 cursor-pointer hover:list-image-col ">
+// <Slice/>
+//  <div className=" max-w-80  ">
+//   <div className="p-4 h-[40%] w-[40%]">
+//   <img src="https://res.cloudinary.com/dve8r06ul/image/upload/v1726900212/chemical_lkpkkr.png" 
+//   className="text-center"/>
+//   </div>
+
+//  <h1 className="font-bold p-3">Description</h1>
+//  <p className="p-3">tkldjfeiosjf ewiofjioewjfioewjfio ewjiofjfioejfijw fjwiojwiofjwiofj wiofjiewjfiwjf iwjfiowjfiojfoi jwofijoifjw jiojfwjffj</p>
+// </div>
+// </div>
+// <div className="w-2/6 flex flex-col border-black border-3 m-10 rounded-md bg-slate-50 h-[70%] max-w-80">
+//  <div className=" max-w-80">
+//   <div className="text-center p-5 h-[40%] w-[40%]">
+//   <img src="https://res.cloudinary.com/dve8r06ul/image/upload/v1726900306/online-voting_1_hrfqff.png" className=""/>
+//   </div>
+//  <h1 className="font-bold p-3">Description</h1>
+//  <p className="p-3">tkldjfeiosjf ewiofjioewjfioewjfio ewjiofjfioejfijw fjwiojwiofjwiofj wiofjiewjfiwjf iwjfiowjfiojfoi jwofijoifjw jiojfwjffj</p>
+// </div>
+// </div>
+// <div className="w-2/6 flex flex-col border-black border-3 m-10 rounded-md bg-slate-50 h-[70%] max-w-80">
+//  <div className=" max-w-80">
+//   <div className="text-center p-5 h-[40%] w-[40%]" >
+//   <img src="https://res.cloudinary.com/dve8r06ul/image/upload/v1726900389/pet-care_bjcudu.png" className=""/>
+//   </div>
+//  <h1 className="font-bold p-3">Description</h1>
+//  <p className="p-3">tkldjfeiosjf ewiofjioewjfioewjfio ewjiofjfioejfijw fjwiojwiofjwiofj wiofjiewjfiwjf iwjfiowjfiojfoi jwofijoifjw jiojfwjffj</p>
+// </div>
+// </div>
+
+// </div>
+
